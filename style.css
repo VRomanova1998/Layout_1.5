@@ -122,13 +122,15 @@ body {
     .list-item-container {
             display: flex; 
             width:260px;
+            margin-bottom: 15px;
     }
     .slider .swiper-pagination {
             bottom:0;
     }
 
     .slider .swiper-pagination-bullet {
-            background-color: #DDDDDD;
+            background-color: #B5B6BC;
+            ;
             width:12px;
             height: 12px;
     }

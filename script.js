@@ -19,10 +19,6 @@ buttonActive.addEventListener('click', function(){
             buttonText.textContent = 'Скрыть'; 
 } });
 
-
-
-
-
 if (window.innerWidth < 768) {
 const swiper = new Swiper('.swiper', {
     pagination: {
@@ -30,7 +26,6 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
     slidesPerView:'auto',
-   /*spaceBetween:-50,*/
    loop: true,
     });
 }
